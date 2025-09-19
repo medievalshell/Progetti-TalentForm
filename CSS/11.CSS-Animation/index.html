@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css</title>
+
+    <style>
+      #animation {
+        left: 15%;
+        width: 800px;
+        height: 100px;
+        margin-left: 20%;
+        margin-top: 15%;
+        animation: anim 5s;
+        background-color: cornsilk;
+        text-align: center;
+      }
+
+      @keyframes anim {
+        from {
+          background: purple;
+        }
+        to {
+          background: pink;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="animation">Animation</div>
+  </body>
+</html>

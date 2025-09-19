@@ -3,7 +3,7 @@
 # React
 # Javascript ✅
 # Typescript
-# Firebase
+# Spring
 # Java ✅
 # Css ✅
 # Html ✅

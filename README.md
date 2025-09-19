@@ -2,8 +2,8 @@
 # Corso TalentForm per testare:
 # React ✅
 # Javascript ✅
-# Typescript
-# Spring
+# Typescript ✅
+# Spring ✅
 # Java ✅
 # Css ✅
 # Html ✅

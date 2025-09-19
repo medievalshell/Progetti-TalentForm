@@ -1,5 +1,0 @@
-1-Scrivi un metodo chiamato  printNumberInWord.
-Il metodo ha  un numero di parametro  che è il numero intero.
-Il metodo deve stampare  "ZERO" ,  "ONE" ,  "TWO" , ...  "NINE" ,  "OTHER"  se il numero del parametro int è  0 ,  1 ,  2 , ....  9  o  altro  per qualsiasi altro numero compresi i numeri negativi.
- Puoi usare l'istruzione if-else o l'istruzione switch qualunque sia più facile per te.
-

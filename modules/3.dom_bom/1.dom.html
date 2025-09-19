@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <style>
+      #link {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      class="header"
+      style="
+        background-color: aqua;
+        color: azure;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+      "
+    >
+      Benvenuti
+    </h1>
+    <div
+      class="box-dom"
+      style="
+        margin-top: 5%;
+        margin-left: 35%;
+        background-color: salmon;
+        height: 100px;
+        width: 500px;
+        border: solid 6px skyblue;
+        border-style: double;
+      "
+    ></div>
+    <h3
+      id="brown"
+      style="margin-left: 45%; color: brown; margin-top: 20px"
+    ></h3>
+    <h4 id="welcome" style="margin-left: 45%">ciaooo</h4>
+    <a id="link" style="margin-left: 46%; margin-bottom: 20%">Google</a>
+
+    <script>
+      let js = (document.getElementById("welcome").innerHTML =
+        "Welcome to dom");
+      document.getElementById("welcome").style.color = "red";
+      document
+        .getElementById("link")
+        .setAttribute("href", "https://www.google.com");
+
+      let para = document.createElement("h3"); //inizio document.createElement
+      let node = document.createTextNode("Create New Element");
+      para.appendChild(node);
+      let element = document.getElementById("brown");
+      element.appendChild(para);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Fabio",
+    "surname": "Di Gloria",
+    "age": 39,
+    "technology_expert": ["Flutter", "React", "ioS"],
+    "city": "Turin",
+    "nation": "Italy"
+  },
+  {
+    "id": 2,
+    "name": "Carlo",
+    "surname": "Bianchi",
+    "age": 30,
+    "technology_expert": ["Java", "Spring"],
+    "city": "Milan",
+    "nation": "Italy"
+  },
+  {
+    "id": 3,
+    "name": "Max",
+    "surname": "Rossi",
+    "age": 40,
+    "technology_expert": ["Javascript", "Typescript"],
+    "city": "Rome",
+    "nation": "Italy"
+  },
+  {
+    "id": 4,
+    "name": "Giuseppe",
+    "surname": "Verdi",
+    "age": 60,
+    "technology_expert": ["Sql", "Mongo DB"],
+    "city": "Florence",
+    "nation": "Italy"
+  },
+  {}
+]

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <script>
+      async function fetchAPI() {
+        const url =
+          "https://mocki.io/v1/6c50cd14-3bf7-4548-8867-f074b59ed9db";
+        const response = await fetch(url);
+        const resp = await response.json();
+        return resp;
+      }
+      fetchAPI().then(console.log);
+    </script>
+  </body>
+</html>

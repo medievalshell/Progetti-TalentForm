@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <p id="timeOut"></p>
+
+    <script>
+      setTimeout(timeout, 6000); // evento temporizzato
+      function timeout() {
+        document.getElementById("timeOut").innerHTML = "Timeout";
+      }
+    </script>
+  </body>
+</html>

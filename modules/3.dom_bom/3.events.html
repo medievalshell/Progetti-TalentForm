@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <button id="listener">OneButton</button>
+
+    <input type="button" value="Invia" onclick="alert('Hai cliccato!')" />
+
+    <input
+      type="button"
+      style="background-color: teal; color: white"
+      value="Open Button"
+      onclick="return change(this);"
+    />
+    <p id="clickText" onclick="myClick()">Open Text</p>
+    <h3 id="onMouse" onmouseover="mouseOver()" onmouseout="mouseOut()">
+      Mouse over me
+    </h3>
+
+    <select id="mySelect" onchange="changed()">
+      <option value="Rome">Italy</option>
+      <option value="Madrid">Spain</option>
+      <option value="Paris">France</option>
+      <option value="Berlin">Germany</option>
+    </select>
+    <p id="change"></p>
+
+    <script>
+      function change(btn) {
+        if (btn.value === "Open Button") btn.value = "Close Button";
+        else btn.value = "Close Button";
+      }
+
+      function myClick() {
+        document.getElementById("clickText").innerHTML = "YOU CLICKED ME!"; // onclick
+      }
+
+      function mouseOver() {
+        // onmouseover
+        document.getElementById("onMouse").style.color = "red";
+      }
+
+      function mouseOut() {
+        document.getElementById("onMouse").style.color = "black";
+      }
+
+      function changed() {
+        // onchange
+        let change = document.getElementById("mySelect").value;
+        document.getElementById("change").innerHTML = "You selected: " + change;
+      }
+
+      document.getElementById("click").addEventListener("click", function () {
+        alert("Hello World!");
+      });
+
+      function OneFunction() {
+        alert("Hello World!");
+      }
+
+      function TwoFunction() {
+        alert("This function was also executed!");
+      }
+
+      let fun = document.getElementById("listener");
+      fun.addEventListener("click", OneFunction);
+      fun.addEventListener("click", TwoFunction);
+    </script>
+  </body>
+</html>

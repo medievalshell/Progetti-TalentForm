@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <form
+      name="form_submit"
+      action="localhost:8080"
+      method="post"
+      onsubmit="form()"
+    >
+      <label for="form">Compila il form</label><br /><br />
+      Enter Name: <input type="text" name="fname" required /> <br /><br />
+      Enter Surname:
+      <input
+        type="password"
+        name="fname"
+        minlength="6"
+        maxlength="8"
+        required
+      /><br /><br />
+      Nation:
+      <select id="mySelect">
+        <option value="Rome">Italy</option>
+        <option value="Madrid">Spain</option>
+        <option value="Paris">France</option>
+        <option value="Berlin">Germany</option></select
+      ><br /><br />
+      Enter E-mail:
+      <input
+        type="email"
+        id="E-mail"
+        name="E-mail"
+        placeholder="e-mail address"
+      /><br /><br />
+      Enter Description:
+      <br /><textarea
+        name="text-area"
+        id="text-area"
+        rows="8"
+        cols="40"
+        maxlength="500"
+        required
+      ></textarea>
+
+      <br /><br />
+      <input type="reset" value="Annulla" />
+      <input type="submit" value="Invia" />&nbsp;&nbsp;&nbsp;
+    </form>
+
+    <script>
+      function form() {
+        // onsubmitted
+        alert("Grazie! I tuoi dati sono stati inviati");
+      }
+    </script>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 # Progetti-TalentForm 
 # Corso TalentForm per testare:
-# React
+# React ✅
 # Javascript ✅
 # Typescript
 # Spring

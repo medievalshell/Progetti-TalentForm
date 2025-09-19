@@ -1,0 +1,43 @@
+1-Scrivi un metodo chiamato toMilesPerHour che abbia 1 parametro di tipo double con il nome kilometriPerHour.
+Questo metodo deve restituire il valore arrotondato del calcolo di tipo long .
+
+
+Se il parametro chilometriPerHour è inferiore a 0,
+il metodo toMilesPerHour deve restituire -1 per indicare un valore non valido.
+
+Altrimenti, se è positivo, calcola il valore delle miglia orarie,
+arrotondalo e restituiscilo . Per la conversione e l'arrotondamento consultare le note nel testo sottostante.
+
+
+
+2-Scrivi un metodo  hasEqualSum  con  3 parametri  di tipo  int .
+
+Il metodo  dovrebbe restituire booleano  e deve  restituire vero  se la somma del primo e del secondo parametro è uguale al terzo parametro.
+Altrimenti  restituisci false.
+
+
+
+
+3-Scrivi un metodo denominato  area  con un  doppio  parametro denominato  raggio.
+
+  Il metodo deve restituire un  valore doppio  che rappresenta l'  area  di un cerchio.
+  Se il  raggio  del parametro è  negativo  , restituisce  -1.0  per rappresentare un valore non valido.
+  Scrivi un altro metodo sovraccaricato con  2 parametri xey (entrambi doppi),
+  dove  x e y rappresentano i  lati   di un rettangolo.
+
+  Il metodo deve restituire un'area di un rettangolo.
+
+  Se uno o entrambi i parametri sono  negativi ,  restituiscono  -1.0  per indicare un valore non valido.
+
+
+  4- Scrivi un metodo  printEqual  con 3  parametri  di tipo  int .
+  Il metodo non dovrebbe restituire nulla ( void ).
+
+     Se uno dei parametri è inferiore a 0, stampa il testo  "Valore non valido" .
+
+     Se tutti i numeri sono uguali, stampa il testo  "Tutti i numeri sono uguali"
+
+     Se tutti i numeri sono diversi, stampa il testo  "Tutti i numeri sono diversi".
+
+     Altrimenti, stampa  "Neppure tutti sono uguali o diversi".
+

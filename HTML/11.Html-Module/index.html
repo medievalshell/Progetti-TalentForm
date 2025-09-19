@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html</title>
+  </head>
+  <body>
+    <main>
+      <fieldset>
+        <legend>Person:</legend>
+        <label for="fname">First name:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          value=""
+          required
+        /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="" /><br /><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input
+          type="radio"
+          id="other"
+          name="gender"
+          value="other"
+        />Other<br /><br />
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label><br /><br />
+        <label for="date">Inserisci la data:</label>
+        <input type="date" id="date" /><br /><br />
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" /><br /><br />
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="15" />
+        <input type="submit" value="Invia i dati" />
+      </fieldset>
+      <br /><br />
+
+      <form name="form_submit" action="localhost:8080" method="POST">
+        <br /><br />
+        <label for="form">Compila il form</label><br /><br />
+        Enter Name: <input type="text" ="fname" required />*<br /><br />
+        Enter Password:
+        <input
+          type="password"
+          name="fname"
+          minlength="6"
+          maxlength="8"
+          required
+        /><br /><br />
+        Enter E-mail:
+        <input
+          type="email"
+          id="E-mail"
+          name="E-mail"
+          placeholder="e-mail address"
+        /><br /><br />
+        Enter Description:<br /><br />
+        <textarea
+          name="text-area"
+          id="text-area"
+          rows="8"
+          cols="40"
+          maxlength="500"
+          required
+        ></textarea>
+
+        <br /><br />
+        Prefer Country:
+        <select id="mySelect">
+          <option value="Rome">Italy</option>
+          <option value="Madrid">Spain</option>
+          <option value="Paris">France</option>
+          <option value="Berlin">Germany</option></select
+        >&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Invia" />
+        <input type="reset" value="Cancella" />
+      </form>
+    </main>
+  </body>
+</html>

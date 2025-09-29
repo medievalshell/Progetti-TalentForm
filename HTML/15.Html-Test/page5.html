@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="assets/icon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Stalinist+One&display=swap" rel="stylesheet">
+        <title>Medievalshell's Website</title>
+    </head>
+    <style>
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+        ::-webkit-scrollbar-track {
+            background: black;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0d6efd;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0066ff;
+        }
+        .font{
+            font-family: Stalinist One, sans-serif;
+            color: #0066ff;
+        }
+        .font:hover{
+            color: white;
+        }
+        img{
+            max-height: 100%; 
+            max-width: 100%;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            border-radius: 50px;
+            border-color: rgb(0, 81, 255);
+            border-style: groove;
+            margin: 20,20,20,20;
+            color: blue;
+            background-color: antiquewhite;
+            font-family: Stalinist One, sans-serif;
+        }
+        .title{
+            color: rgb(0, 81, 255);
+            font-family: Stalinist One, sans-serif;
+            text-align: center;
+        }
+        .subtitle{
+            color: rgb(0, 81, 255);
+            font-family: Stalinist One, sans-serif;
+            text-align: center;
+        }
+        .divimg{
+            display: flex;
+            height: 250px;
+            width: 100%;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .div1{
+            background-color: bisque;
+            border: black;
+            justify-content: center;
+            border-radius: 50px;
+            margin: 20,20,20,20;
+            align-items: center;
+            border-color: rgb(0, 81, 255);
+            border-style: groove;
+        }
+        .subtitle1{
+            font-family: Stalinist One, sans-serif;
+            text-align: center;
+        }
+        .pl{
+            font-family: Stalinist One, sans-serif;
+            text-align: center;
+        }
+        .divbutton{
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .b{
+            background-color: rgb(0, 217, 255);
+            border-color: rgb(0, 81, 255);
+            border-radius: 50px;
+            font-family: Stalinist One, sans-serif;
+        }
+    </style>
+    <body class="bg-dark">
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Medievalshell's Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index2.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                            </a>
+                            <ul class="dropdown-menu bg-dark font">
+                                <li><a class="dropdown-item bg-dark font" href="page1.html">Intro HTML</a></li>
+                                <li><a class="dropdown-item bg-dark font" href="page2.html">Intro HTML 2</a></li>
+                                <li><a class="dropdown-item bg-dark font" href="page3.html">PRIMA HOME FATTA IN AULAB</a></li>
+                                <li><a class="dropdown-item bg-dark font" href="page5.html">AVG</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">hobby</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Youtube Songs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page4.html">Social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="divimg mb-4" style="margin-top: 70px;">
+                <img src="assets\IMG_20221221_224757_724-removebg-preview.png" alt="logo">
+            </div>
+            <header>
+                <h1 class="title">Medievalshell's Website</h1>
+                <h2 class="subtitle">Homepage</h2>
+            </header>
+            <div class="div1">
+                <h3 class="subtitle1"">Lorem Ipsum</h3>
+                <svg width="430" height="400" class="me-2">
+                    <rect x="100" y="40" rx="20" ry="20" width="300" height="300"
+                    style="fill:blue;stroke:black;stroke-width:5;opacity:0.5" />
+                </svg>
+                <svg width="395" height="450" class="me-2">
+                    <polygon points="200,20 80,396 380,156 20,156 320,396"
+                    style="fill:blue;stroke:black;stroke-width:10;" />
+                </svg><br><br>
+            </div>
+            <div class="divbutton" style="margin-bottom: 80px;">
+                <a href="page1.html">
+                    <button class="btn btn-primary button">Next Page</button>
+                </a>
+            </div>
+        </main>
+        <footer class="bg-dark text-center text-white" style="position: fixed; bottom: 0; width: 100%;">
+            <div class="text-center p-3" style="background-color: #0d6efd;">
+                © 2025 Copyright by:
+                <a class="text-white text-decoration-none font">Medievalshell</a>
+                <a href="page4.html" class="me-2">
+                    <button class="btn btn-primary button">Social</button>
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>

@@ -1,7 +1,10 @@
-# Progetti-TalentForm
+# Progetti-TalentForm 
 # Corso TalentForm per testare:
-# React
-# Javascript
-# Typescript
-# Firebase
-# Java
+# React ✅
+# Javascript ✅
+# Typescript ✅
+# Spring ✅
+# Java ✅
+# Css ✅
+# Html ✅
+# Bootstrap

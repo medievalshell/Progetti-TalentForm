@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript</title>
     <script src="10.objectMath.js"></script>
+    <style>
+      body.light-mode {
+        background: #f8f9fa;
+        color: #222;
+        transition: background 0.3s, color 0.3s;
+        align-items: center;
+        justify-content: center
+      }
+      body.dark-mode {
+        background: #181c24;
+        color: #d6deeb;
+        transition: background 0.3s, color 0.3s;
+        align-items: center;
+        justify-content: center
+      }
+      button {
+        transition: background 0.3s, color 0.3s;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container mt-5">
+      <h2 class="mb-4">Esempio di Dark/Light Mode</h2>
+      <p class="lead">Clicca il bottone in alto a destra per cambiare tema!</p>
+      <div class="card mb-3 p-3">
+        <h4>Questa è una card di esempio</h4>
+        <p>Il colore di sfondo e il testo cambiano in base alla modalità attiva.</p>
+      </div>
+      <div class="alert alert-info">
+        Anche gli elementi Bootstrap si adattano al cambio di tema!
+      </div>
+      <p id="interval"></p>
+      <p id="interval1"></p>
+    </div>
+  </body>
 </html>

@@ -109,6 +109,49 @@
       top: 21px;
       right: 40px;
     }
+    /* Media query per telefono */
+    @media (max-width: 600px) {
+      .wic-container {
+        max-width: 100vw;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0 0 1em 0;
+      }
+      .wic-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0.5em;
+        padding: 1em 1em 0.5em 1em;
+        border-radius: 0;
+      }
+      .wic-title {
+        font-size: 1.2em;
+        text-align: center;
+      }
+      #output, .wic-console, #monaco-container {
+        font-size: 1em;
+        border-radius: 0;
+        margin: 0.5em 0;
+        box-shadow: none;
+      }
+      body {
+        font-size: 0.95em;
+      }
+      .logo {
+        position: static;
+        display: block;
+        margin: 0 auto 1em auto;
+        height: 60px;
+        max-width: 90vw;
+      }
+      .d-flex.align-items-center.justify-content-end.p-2 {
+        justify-content: center !important;
+        margin-bottom: 0.5em;
+      }
+    }
   </style>
 </head>
 <body>

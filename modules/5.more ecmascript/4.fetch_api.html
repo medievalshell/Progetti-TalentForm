@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Fetch API</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="logo.png">
+  </head>
+  <body>
+  <h1 class="text-center text-light mb-1 display-4 fw-bold" style="letter-spacing:2px;">Utenti</h1>
+      <div class="container bg-dark rounded-4 shadow-lg py-4 my-5" style="max-height: 700px; overflow-y: auto;">
+        <div class="row" id="cards-container" style="margin-top:2em; margin-bottom:2em;"></div>
+        <nav aria-label="Paginazione utenti" class="d-flex justify-content-center mt-4">
+          <ul class="pagination pagination-lg" id="paginator"></ul>
+        </nav>
+      </div>
+    <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light rounded-4">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="userModalLabel">Dettaglio Utente</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="modalBody" style="white-space: pre-line; font-family: 'Fira Mono', monospace;"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let allData = [];
+      const perPage = 3;
+      let currentPage = 1;
+      async function fetchAPI() {
+        const url = "https://mocki.io/v1/e6344450-99a3-4bbf-b717-c8d89feb6bc8";
+        const response = await fetch(url);
+        const resp = await response.json();
+        return resp;
+      }
+      function createCard(person, idx) {
+        return `
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card rounded-4 shadow bg-secondary text-light h-100 border-0 card-clickable" style="cursor:pointer;" data-idx="${idx}">
+            <div class="card-body">
+              <h5 class="card-title">${person.name} <span class="text-info">(${person.username})</span></h5>
+              <h6 class="card-subtitle mb-2 text-warning">${person.email}</h6>
+              <p class="card-text mb-1"><b>Indirizzo:</b> ${person.address.street}, ${person.address.suite}, ${person.address.city} (${person.address.zipcode})</p>
+              <p class="card-text mb-1"><b>Geo:</b> lat: ${person.address.geo.lat}, lng: ${person.address.geo.lng}</p>
+              <p class="card-text mb-1"><b>Telefono:</b> ${person.phone}</p>
+              <p class="card-text mb-1"><b>Website:</b> <a href="http://${person.website}" class="link-light" target="_blank">${person.website}</a></p>
+              <p class="card-text mb-1"><b>Azienda:</b> ${person.company.name}</p>
+              <p class="card-text mb-1"><b>CatchPhrase:</b> ${person.company.catchPhrase}</p>
+              <p class="card-text mb-1"><b>BS:</b> ${person.company.bs}</p>
+            </div>
+          </div>
+        </div>
+        `;
+      }
+      function renderCards(page) {
+        const container = document.getElementById('cards-container');
+        const start = (page - 1) * perPage;
+        const end = start + perPage;
+        const pageData = allData.slice(start, end);
+        container.innerHTML = pageData.map((p, i) => createCard(p, start + i)).join('');
+        document.querySelectorAll('.card-clickable').forEach(card => {
+          card.addEventListener('click', function() {
+            const idx = parseInt(this.getAttribute('data-idx'));
+            showSingleCardView(allData[idx]);
+          });
+        });
+      }
+      function renderPaginator() {
+        const paginator = document.getElementById('paginator');
+        const totalPages = Math.ceil(allData.length / perPage);
+        let html = '';
+        for (let i = 1; i <= totalPages; i++) {
+          html += `<li class="page-item${i === currentPage ? ' active' : ''}"><button class="page-link bg-dark text-light border-0" onclick="goToPage(${i})">${i}</button></li>`;
+        }
+        paginator.innerHTML = html;
+      }
+      window.goToPage = function(page) {
+        currentPage = page;
+        renderCards(page);
+        renderPaginator();
+        window.scrollTo({top:0,behavior:'smooth'});
+      }
+      function showSingleCardView(person) {
+        document.querySelector('.container').style.display = 'none';
+        const main = document.createElement('div');
+        main.id = 'single-card-view';
+        main.className = 'd-flex flex-column align-items-center justify-content-center min-vh-100';
+        main.innerHTML = `
+          <div class="card rounded-4 shadow bg-secondary text-light border-0" style="max-width: 600px; width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title mb-3">${person.name} <span class="text-info">(${person.username})</span></h5>
+              <pre style="background:#23272e; color:#d6deeb; border-radius:1rem; padding:1em; font-size:1rem; white-space:pre-wrap;">${JSON.stringify(person, null, 2)}</pre>
+              <button class="btn btn-primary mt-3 w-100" id="backBtn">Torna indietro</button>
+            </div>
+          </div>
+        `;
+        document.body.appendChild(main);
+        document.getElementById('backBtn').onclick = function() {
+          main.remove();
+          document.querySelector('.container').style.display = '';
+        };
+      }
+      fetchAPI().then(data => {
+        allData = data;
+        renderCards(currentPage);
+        renderPaginator();
+      });
+    </script>
+    <style>
+      body {
+        background: #181a1b !important;
+      }
+      .pagination .page-item.active .page-link {
+        background: #0d6efd !important;
+        color: #fff !important;
+        border-radius: 1.5rem;
+      }
+      .pagination .page-link {
+        border-radius: 1.5rem;
+      }
+    </style>
+  </body>
+</html>

@@ -22,6 +22,36 @@
       console.log(myJSO)
 
       document.getElementById("json-object").innerHTML =myJSO;
+
+
+      const NOME_FILE_JSON = 'json.json'; 
+      function caricaEAccediUtenti() {
+          fetch(NOME_FILE_JSON)
+              .then(response => {
+                  if (!response.ok) {
+                      throw new Error(`Errore di rete: ${response.status}`);
+                  }
+                  return response.json(); 
+              })
+              .then(json => {
+                  const listaUtenti = json.utenti; 
+                  if (listaUtenti) {
+                      console.log('✅ Dati Utenti caricati con successo:');
+                      console.log(listaUtenti);
+                      listaUtenti.forEach(utente => {
+                          console.log(`- ID: ${utente.id}, Nome: ${utente.nome}`);
+                      });
+                  } else {
+                      console.warn("La chiave 'utenti' non è stata trovata nell'oggetto JSON.");
+                  }
+              })
+              .catch(errore => {
+                  console.error('❌ Errore durante il caricamento del JSON:', errore);
+              });
+      }
+      caricaEAccediUtenti();
     </script>
   </body>
 </html>
+
+

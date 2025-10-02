@@ -1,4 +1,3 @@
-
 let colori = ["rosso", "verde", "giallo"];
 ; // elementi aggiunti nell'array
 
@@ -42,3 +41,18 @@ let multi = [
 ];
 
 console.log(multi);
+let sum = 0;
+for (let i = 0; i < multi.length; i++) {
+console.log(multi[i][1]);
+sum += multi[i][1];
+console.log(sum);
+}
+// Conta quanti elementi nell’array sono maggiori di 10
+const arr = [5, 8, 10, 23, 42];
+let count = 0;
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > 10) {
+    count++;
+  }
+}
+console.log('Elementi maggiori di 10:', count);

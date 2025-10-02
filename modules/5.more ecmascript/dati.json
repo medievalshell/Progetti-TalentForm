@@ -1,100 +1,1002 @@
 [
-  
   {
-  "id": 1,
-  "name": "Antonio Rossi",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-      "lat": "-37.3159",
-      "lng": "81.1496"
+    "id": 1,
+    "name": "Antonio Rossi",
+    "username": "Bret",
+    "email": "antonio.rossi@email.com",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": { "lat": "-37.3159", "lng": "81.1496" }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
     }
   },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
-  }
-},
-
-{
-  "id": 2,
-  "name": "Mauro Bianchi",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-      "lat": "-37.3159",
-      "lng": "81.1496"
+  {
+    "id": 2,
+    "name": "Mauro Bianchi",
+    "username": "MauroB",
+    "email": "mauro.bianchi@email.com",
+    "address": {
+      "street": "Via Roma",
+      "suite": "Apt. 101",
+      "city": "Milano",
+      "zipcode": "20100",
+      "geo": { "lat": "45.4642", "lng": "9.19" }
+    },
+    "phone": "02-1234-5678",
+    "website": "bianchi.it",
+    "company": {
+      "name": "Bianchi Group",
+      "catchPhrase": "Innovative solutions for business",
+      "bs": "empower digital transformation"
     }
   },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
-  }
-},
-
-{
-  "id": 3,
-  "name": "Giuseppe Verdi",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-      "lat": "-37.3159",
-      "lng": "81.1496"
+  {
+    "id": 3,
+    "name": "Giuseppe Verdi",
+    "username": "VerdiG",
+    "email": "giuseppe.verdi@email.com",
+    "address": {
+      "street": "Via Verdi",
+      "suite": "Suite 3B",
+      "city": "Parma",
+      "zipcode": "43121",
+      "geo": { "lat": "44.8015", "lng": "10.3279" }
+    },
+    "phone": "0521-987654",
+    "website": "verdi.com",
+    "company": {
+      "name": "Verdi Music",
+      "catchPhrase": "Harmony in business",
+      "bs": "compose creative solutions"
     }
   },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
-  }
-},
-
-{
-  "id": 4,
-  "name": "Mario Rossi",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-      "lat": "-37.3159",
-      "lng": "81.1496"
+  {
+    "id": 4,
+    "name": "Mario Rossi",
+    "username": "MarioR",
+    "email": "mario.rossi@email.com",
+    "address": {
+      "street": "Via Napoli",
+      "suite": "Apt. 12C",
+      "city": "Napoli",
+      "zipcode": "80100",
+      "geo": { "lat": "40.8522", "lng": "14.2681" }
+    },
+    "phone": "081-1234567",
+    "website": "rossi.net",
+    "company": {
+      "name": "Rossi SPA",
+      "catchPhrase": "Redefining excellence",
+      "bs": "deliver quality services"
     }
   },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
+  {
+    "id": 5,
+    "name": "Clara Oswald",
+    "username": "ClaraO",
+    "email": "clara.oswald@email.com",
+    "address": {
+      "street": "Via dei Banchi",
+      "suite": "Apt. 7",
+      "city": "Firenze",
+      "zipcode": "50123",
+      "geo": { "lat": "43.7695", "lng": "11.2558" }
+    },
+    "phone": "055-1234567",
+    "website": "oswald.com",
+    "company": {
+      "name": "Oswald & Co",
+      "catchPhrase": "Your partner in success",
+      "bs": "optimize business processes"
+    }
+  },
+  {
+    "id": 6,
+    "name": "John Doe",
+    "username": "JohnD",
+    "email": "john.doe@email.com",
+    "address": {
+      "street": "123 Elm St",
+      "suite": "",
+      "city": "Springfield",
+      "zipcode": "62701",
+      "geo": { "lat": "39.7817", "lng": "-89.6501" }
+    },
+    "phone": "217-555-0123",
+    "website": "johndoe.com",
+    "company": {
+      "name": "Doe Enterprises",
+      "catchPhrase": "We make things happen",
+      "bs": "streamline your operations"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Jane Smith",
+    "username": "JaneS",
+    "email": "jane.smith@email.com",
+    "address": {
+      "street": "456 Oak St",
+      "suite": "Suite 200",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0147",
+    "website": "janesmith.com",
+    "company": {
+      "name": "Smith LLC",
+      "catchPhrase": "Quality over quantity",
+      "bs": "enhance your brand"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Albert Einstein",
+    "username": "EinsteinA",
+    "email": "albert.einstein@email.com",
+    "address": {
+      "street": "789 Pine St",
+      "suite": "Apt. 3A",
+      "city": "Princeton",
+      "zipcode": "08540",
+      "geo": { "lat": "40.3573", "lng": "-74.6672" }
+    },
+    "phone": "609-555-0198",
+    "website": "einstein.com",
+    "company": {
+      "name": "Einstein Innovations",
+      "catchPhrase": "Imagination is more important than knowledge",
+      "bs": "revolutionize your thinking"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Isaac Newton",
+    "username": "NewtonI",
+    "email": "isaac.newton@email.com",
+    "address": {
+      "street": "159 Science Rd",
+      "suite": "",
+      "city": "Cambridge",
+      "zipcode": "02138",
+      "geo": { "lat": "42.3736", "lng": "-71.1097" }
+    },
+    "phone": "617-555-0165",
+    "website": "newton.com",
+    "company": {
+      "name": "Newton Technologies",
+      "catchPhrase": "Innovating the future",
+      "bs": "advance your technology"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Marie Curie",
+    "username": "CurieM",
+    "email": "marie.curie@email.com",
+    "address": {
+      "street": "753 Nobel St",
+      "suite": "Apt. 5B",
+      "city": "Paris",
+      "zipcode": "75007",
+      "geo": { "lat": "48.8566", "lng": "2.3522" }
+    },
+    "phone": "01-555-0176",
+    "website": "curie.com",
+    "company": {
+      "name": "Curie Research",
+      "catchPhrase": "Science for the sake of humanity",
+      "bs": "expand your knowledge"
+    }
+  },
+  {
+    "id": 11,
+    "name": "James Bond",
+    "username": "BondJ",
+    "email": "james.bond@email.com",
+    "address": {
+      "street": "007 Secret St",
+      "suite": "",
+      "city": "London",
+      "zipcode": "SW1A 1AA",
+      "geo": { "lat": "51.5014", "lng": "-0.1419" }
+    },
+    "phone": "+44 20 7946 0958",
+    "website": "bond.com",
+    "company": {
+      "name": "MI6",
+      "catchPhrase": "The name's Bond, James Bond",
+      "bs": "maintain global peace"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lara Croft",
+    "username": "CroftL",
+    "email": "lara.croft@email.com",
+    "address": {
+      "street": "456 Adventure Bay",
+      "suite": "",
+      "city": "London",
+      "zipcode": "NW1 4DJ",
+      "geo": { "lat": "51.5234", "lng": "-0.1585" }
+    },
+    "phone": "+44 20 7946 0959",
+    "website": "croft.com",
+    "company": {
+      "name": "Tomb Raider Inc.",
+      "catchPhrase": "Exploring the unexplored",
+      "bs": "push the limits"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bruce Wayne",
+    "username": "WayneB",
+    "email": "bruce.wayne@email.com",
+    "address": {
+      "street": "1007 Mountain Dr",
+      "suite": "",
+      "city": "Gotham",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0142",
+    "website": "wayneenterprises.com",
+    "company": {
+      "name": "Wayne Enterprises",
+      "catchPhrase": "Building a better tomorrow",
+      "bs": "invest in innovation"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Clark Kent",
+    "username": "KentC",
+    "email": "clark.kent@email.com",
+    "address": {
+      "street": "344 Clinton St",
+      "suite": "",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0148",
+    "website": "dailyplanet.com",
+    "company": {
+      "name": "Daily Planet",
+      "catchPhrase": "The truth is out there",
+      "bs": "report the news"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Diana Prince",
+    "username": "PrinceD",
+    "email": "diana.prince@email.com",
+    "address": {
+      "street": "895 Amazon Way",
+      "suite": "",
+      "city": "Themyscira",
+      "zipcode": "00001",
+      "geo": { "lat": "38.8833", "lng": "-77.0167" }
+    },
+    "phone": "(202) 555-0177",
+    "website": "wonderwoman.com",
+    "company": {
+      "name": "Themyscira LLC",
+      "catchPhrase": "Strength and wisdom",
+      "bs": "empower women"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Peter Parker",
+    "username": "ParkerP",
+    "email": "peter.parker@email.com",
+    "address": {
+      "street": "20 Ingram St",
+      "suite": "Apt. 3C",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0178",
+    "website": "spiderman.com",
+    "company": {
+      "name": "Parker Industries",
+      "catchPhrase": "With great power comes great responsibility",
+      "bs": "innovate with integrity"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Wade Wilson",
+    "username": "WilsonW",
+    "email": "wade.wilson@email.com",
+    "address": {
+      "street": "123 Deadpool Rd",
+      "suite": "",
+      "city": "Mexico City",
+      "zipcode": "01000",
+      "geo": { "lat": "19.4326", "lng": "-99.1332" }
+    },
+    "phone": "+52 55 1234 5678",
+    "website": "deadpool.com",
+    "company": {
+      "name": "Deadpool Corp",
+      "catchPhrase": "Maximum effort",
+      "bs": "break the fourth wall"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Logan",
+    "username": "WolverineL",
+    "email": "logan.wolverine@email.com",
+    "address": {
+      "street": "456 Mutant Ln",
+      "suite": "",
+      "city": "Albuquerque",
+      "zipcode": "87101",
+      "geo": { "lat": "35.0844", "lng": "-106.6504" }
+    },
+    "phone": "(505) 555-0199",
+    "website": "wolverine.com",
+    "company": {
+      "name": "X-Men",
+      "catchPhrase": "Not all heroes wear capes",
+      "bs": "protect the future"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Natasha Romanoff",
+    "username": "BlackWidowN",
+    "email": "natasha.romanoff@email.com",
+    "address": {
+      "street": "321 Shield Ave",
+      "suite": "",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "geo": { "lat": "34.0522", "lng": "-118.2437" }
+    },
+    "phone": "(213) 555-0179",
+    "website": "blackwidow.com",
+    "company": {
+      "name": "S.H.I.E.L.D.",
+      "catchPhrase": "Peace through strength",
+      "bs": "defend the world"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Stephen Strange",
+    "username": "StrangeS",
+    "email": "stephen.strange@email.com",
+    "address": {
+      "street": "789 Mystic Way",
+      "suite": "",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0180",
+    "website": "doctorstrange.com",
+    "company": {
+      "name": "Strange & Co.",
+      "catchPhrase": "The power of mystic arts",
+      "bs": "heal the world"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Clark Kent",
+    "username": "KentC",
+    "email": "clark.kent@email.com",
+    "address": {
+      "street": "344 Clinton St",
+      "suite": "",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0148",
+    "website": "dailyplanet.com",
+    "company": {
+      "name": "Daily Planet",
+      "catchPhrase": "The truth is out there",
+      "bs": "report the news"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Diana Prince",
+    "username": "PrinceD",
+    "email": "diana.prince@email.com",
+    "address": {
+      "street": "895 Amazon Way",
+      "suite": "",
+      "city": "Themyscira",
+      "zipcode": "00001",
+      "geo": { "lat": "38.8833", "lng": "-77.0167" }
+    },
+    "phone": "(202) 555-0177",
+    "website": "wonderwoman.com",
+    "company": {
+      "name": "Themyscira LLC",
+      "catchPhrase": "Strength and wisdom",
+      "bs": "empower women"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Peter Parker",
+    "username": "ParkerP",
+    "email": "peter.parker@email.com",
+    "address": {
+      "street": "20 Ingram St",
+      "suite": "Apt. 3C",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0178",
+    "website": "spiderman.com",
+    "company": {
+      "name": "Parker Industries",
+      "catchPhrase": "With great power comes great responsibility",
+      "bs": "innovate with integrity"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Wade Wilson",
+    "username": "WilsonW",
+    "email": "wade.wilson@email.com",
+    "address": {
+      "street": "123 Deadpool Rd",
+      "suite": "",
+      "city": "Mexico City",
+      "zipcode": "01000",
+      "geo": { "lat": "19.4326", "lng": "-99.1332" }
+    },
+    "phone": "+52 55 1234 5678",
+    "website": "deadpool.com",
+    "company": {
+      "name": "Deadpool Corp",
+      "catchPhrase": "Maximum effort",
+      "bs": "break the fourth wall"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Logan",
+    "username": "WolverineL",
+    "email": "logan.wolverine@email.com",
+    "address": {
+      "street": "456 Mutant Ln",
+      "suite": "",
+      "city": "Albuquerque",
+      "zipcode": "87101",
+      "geo": { "lat": "35.0844", "lng": "-106.6504" }
+    },
+    "phone": "(505) 555-0199",
+    "website": "wolverine.com",
+    "company": {
+      "name": "X-Men",
+      "catchPhrase": "Not all heroes wear capes",
+      "bs": "protect the future"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Natasha Romanoff",
+    "username": "BlackWidowN",
+    "email": "natasha.romanoff@email.com",
+    "address": {
+      "street": "321 Shield Ave",
+      "suite": "",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "geo": { "lat": "34.0522", "lng": "-118.2437" }
+    },
+    "phone": "(213) 555-0179",
+    "website": "blackwidow.com",
+    "company": {
+      "name": "S.H.I.E.L.D.",
+      "catchPhrase": "Peace through strength",
+      "bs": "defend the world"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Stephen Strange",
+    "username": "StrangeS",
+    "email": "stephen.strange@email.com",
+    "address": {
+      "street": "789 Mystic Way",
+      "suite": "",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0180",
+    "website": "doctorstrange.com",
+    "company": {
+      "name": "Strange & Co.",
+      "catchPhrase": "The power of mystic arts",
+      "bs": "heal the world"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Clark Kent",
+    "username": "KentC",
+    "email": "clark.kent@email.com",
+    "address": {
+      "street": "344 Clinton St",
+      "suite": "",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0148",
+    "website": "dailyplanet.com",
+    "company": {
+      "name": "Daily Planet",
+      "catchPhrase": "The truth is out there",
+      "bs": "report the news"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Diana Prince",
+    "username": "PrinceD",
+    "email": "diana.prince@email.com",
+    "address": {
+      "street": "895 Amazon Way",
+      "suite": "",
+      "city": "Themyscira",
+      "zipcode": "00001",
+      "geo": { "lat": "38.8833", "lng": "-77.0167" }
+    },
+    "phone": "(202) 555-0177",
+    "website": "wonderwoman.com",
+    "company": {
+      "name": "Themyscira LLC",
+      "catchPhrase": "Strength and wisdom",
+      "bs": "empower women"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Peter Parker",
+    "username": "ParkerP",
+    "email": "peter.parker@email.com",
+    "address": {
+      "street": "20 Ingram St",
+      "suite": "Apt. 3C",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0178",
+    "website": "spiderman.com",
+    "company": {
+      "name": "Parker Industries",
+      "catchPhrase": "With great power comes great responsibility",
+      "bs": "innovate with integrity"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Wade Wilson",
+    "username": "WilsonW",
+    "email": "wade.wilson@email.com",
+    "address": {
+      "street": "123 Deadpool Rd",
+      "suite": "",
+      "city": "Mexico City",
+      "zipcode": "01000",
+      "geo": { "lat": "19.4326", "lng": "-99.1332" }
+    },
+    "phone": "+52 55 1234 5678",
+    "website": "deadpool.com",
+    "company": {
+      "name": "Deadpool Corp",
+      "catchPhrase": "Maximum effort",
+      "bs": "break the fourth wall"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Logan",
+    "username": "WolverineL",
+    "email": "logan.wolverine@email.com",
+    "address": {
+      "street": "456 Mutant Ln",
+      "suite": "",
+      "city": "Albuquerque",
+      "zipcode": "87101",
+      "geo": { "lat": "35.0844", "lng": "-106.6504" }
+    },
+    "phone": "(505) 555-0199",
+    "website": "wolverine.com",
+    "company": {
+      "name": "X-Men",
+      "catchPhrase": "Not all heroes wear capes",
+      "bs": "protect the future"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Natasha Romanoff",
+    "username": "BlackWidowN",
+    "email": "natasha.romanoff@email.com",
+    "address": {
+      "street": "321 Shield Ave",
+      "suite": "",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "geo": { "lat": "34.0522", "lng": "-118.2437" }
+    },
+    "phone": "(213) 555-0179",
+    "website": "blackwidow.com",
+    "company": {
+      "name": "S.H.I.E.L.D.",
+      "catchPhrase": "Peace through strength",
+      "bs": "defend the world"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Stephen Strange",
+    "username": "StrangeS",
+    "email": "stephen.strange@email.com",
+    "address": {
+      "street": "789 Mystic Way",
+      "suite": "",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0180",
+    "website": "doctorstrange.com",
+    "company": {
+      "name": "Strange & Co.",
+      "catchPhrase": "The power of mystic arts",
+      "bs": "heal the world"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Clark Kent",
+    "username": "KentC",
+    "email": "clark.kent@email.com",
+    "address": {
+      "street": "344 Clinton St",
+      "suite": "",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0148",
+    "website": "dailyplanet.com",
+    "company": {
+      "name": "Daily Planet",
+      "catchPhrase": "The truth is out there",
+      "bs": "report the news"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Diana Prince",
+    "username": "PrinceD",
+    "email": "diana.prince@email.com",
+    "address": {
+      "street": "895 Amazon Way",
+      "suite": "",
+      "city": "Themyscira",
+      "zipcode": "00001",
+      "geo": { "lat": "38.8833", "lng": "-77.0167" }
+    },
+    "phone": "(202) 555-0177",
+    "website": "wonderwoman.com",
+    "company": {
+      "name": "Themyscira LLC",
+      "catchPhrase": "Strength and wisdom",
+      "bs": "empower women"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Peter Parker",
+    "username": "ParkerP",
+    "email": "peter.parker@email.com",
+    "address": {
+      "street": "20 Ingram St",
+      "suite": "Apt. 3C",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0178",
+    "website": "spiderman.com",
+    "company": {
+      "name": "Parker Industries",
+      "catchPhrase": "With great power comes great responsibility",
+      "bs": "innovate with integrity"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Wade Wilson",
+    "username": "WilsonW",
+    "email": "wade.wilson@email.com",
+    "address": {
+      "street": "123 Deadpool Rd",
+      "suite": "",
+      "city": "Mexico City",
+      "zipcode": "01000",
+      "geo": { "lat": "19.4326", "lng": "-99.1332" }
+    },
+    "phone": "+52 55 1234 5678",
+    "website": "deadpool.com",
+    "company": {
+      "name": "Deadpool Corp",
+      "catchPhrase": "Maximum effort",
+      "bs": "break the fourth wall"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Logan",
+    "username": "WolverineL",
+    "email": "logan.wolverine@email.com",
+    "address": {
+      "street": "456 Mutant Ln",
+      "suite": "",
+      "city": "Albuquerque",
+      "zipcode": "87101",
+      "geo": { "lat": "35.0844", "lng": "-106.6504" }
+    },
+    "phone": "(505) 555-0199",
+    "website": "wolverine.com",
+    "company": {
+      "name": "X-Men",
+      "catchPhrase": "Not all heroes wear capes",
+      "bs": "protect the future"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Natasha Romanoff",
+    "username": "BlackWidowN",
+    "email": "natasha.romanoff@email.com",
+    "address": {
+      "street": "321 Shield Ave",
+      "suite": "",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "geo": { "lat": "34.0522", "lng": "-118.2437" }
+    },
+    "phone": "(213) 555-0179",
+    "website": "blackwidow.com",
+    "company": {
+      "name": "S.H.I.E.L.D.",
+      "catchPhrase": "Peace through strength",
+      "bs": "defend the world"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Stephen Strange",
+    "username": "StrangeS",
+    "email": "stephen.strange@email.com",
+    "address": {
+      "street": "789 Mystic Way",
+      "suite": "",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0180",
+    "website": "doctorstrange.com",
+    "company": {
+      "name": "Strange & Co.",
+      "catchPhrase": "The power of mystic arts",
+      "bs": "heal the world"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Clark Kent",
+    "username": "KentC",
+    "email": "clark.kent@email.com",
+    "address": {
+      "street": "344 Clinton St",
+      "suite": "",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0148",
+    "website": "dailyplanet.com",
+    "company": {
+      "name": "Daily Planet",
+      "catchPhrase": "The truth is out there",
+      "bs": "report the news"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Diana Prince",
+    "username": "PrinceD",
+    "email": "diana.prince@email.com",
+    "address": {
+      "street": "895 Amazon Way",
+      "suite": "",
+      "city": "Themyscira",
+      "zipcode": "00001",
+      "geo": { "lat": "38.8833", "lng": "-77.0167" }
+    },
+    "phone": "(202) 555-0177",
+    "website": "wonderwoman.com",
+    "company": {
+      "name": "Themyscira LLC",
+      "catchPhrase": "Strength and wisdom",
+      "bs": "empower women"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Peter Parker",
+    "username": "ParkerP",
+    "email": "peter.parker@email.com",
+    "address": {
+      "street": "20 Ingram St",
+      "suite": "Apt. 3C",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0178",
+    "website": "spiderman.com",
+    "company": {
+      "name": "Parker Industries",
+      "catchPhrase": "With great power comes great responsibility",
+      "bs": "innovate with integrity"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Wade Wilson",
+    "username": "WilsonW",
+    "email": "wade.wilson@email.com",
+    "address": {
+      "street": "123 Deadpool Rd",
+      "suite": "",
+      "city": "Mexico City",
+      "zipcode": "01000",
+      "geo": { "lat": "19.4326", "lng": "-99.1332" }
+    },
+    "phone": "+52 55 1234 5678",
+    "website": "deadpool.com",
+    "company": {
+      "name": "Deadpool Corp",
+      "catchPhrase": "Maximum effort",
+      "bs": "break the fourth wall"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Logan",
+    "username": "WolverineL",
+    "email": "logan.wolverine@email.com",
+    "address": {
+      "street": "456 Mutant Ln",
+      "suite": "",
+      "city": "Albuquerque",
+      "zipcode": "87101",
+      "geo": { "lat": "35.0844", "lng": "-106.6504" }
+    },
+    "phone": "(505) 555-0199",
+    "website": "wolverine.com",
+    "company": {
+      "name": "X-Men",
+      "catchPhrase": "Not all heroes wear capes",
+      "bs": "protect the future"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Natasha Romanoff",
+    "username": "BlackWidowN",
+    "email": "natasha.romanoff@email.com",
+    "address": {
+      "street": "321 Shield Ave",
+      "suite": "",
+      "city": "Los Angeles",
+      "zipcode": "90001",
+      "geo": { "lat": "34.0522", "lng": "-118.2437" }
+    },
+    "phone": "(213) 555-0179",
+    "website": "blackwidow.com",
+    "company": {
+      "name": "S.H.I.E.L.D.",
+      "catchPhrase": "Peace through strength",
+      "bs": "defend the world"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Stephen Strange",
+    "username": "StrangeS",
+    "email": "stephen.strange@email.com",
+    "address": {
+      "street": "789 Mystic Way",
+      "suite": "",
+      "city": "New York",
+      "zipcode": "10001",
+      "geo": { "lat": "40.7128", "lng": "-74.0060" }
+    },
+    "phone": "(212) 555-0180",
+    "website": "doctorstrange.com",
+    "company": {
+      "name": "Strange & Co.",
+      "catchPhrase": "The power of mystic arts",
+      "bs": "heal the world"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Clark Kent",
+    "username": "KentC",
+    "email": "clark.kent@email.com",
+    "address": {
+      "street": "344 Clinton St",
+      "suite": "",
+      "city": "Metropolis",
+      "zipcode": "62960",
+      "geo": { "lat": "37.8715", "lng": "-88.9626" }
+    },
+    "phone": "618-555-0148",
+    "website": "dailyplanet.com",
+    "company": {
+      "name": "Daily Planet",
+      "catchPhrase": "The truth is out there",
+      "bs": "report the news"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Diana Prince",
+    "username": "PrinceD",
+    "email": "diana.prince@email.com",
+    "address": {
+      "street": "895 Amazon Way",
+      "suite": "",
+      "city": "Themyscira",
+      "zipcode": "00001",
+      "geo": { "lat": "38.8833", "lng": "-77.0167" }
+    },
+    "phone": "(202) 555-0177",
+    "website": "wonderwoman.com",
+    "company": {
+      "name": "Themyscira LLC",
+      "catchPhrase": "Strength and wisdom",
+      "bs": "empower women"
+    }
   }
-}
-
-
 ]

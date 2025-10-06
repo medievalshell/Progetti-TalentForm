@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Fetch Cards</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body style="background:#181a1b;">
+  <h1 class="text-center text-light mb-1 display-4 fw-bold" style="letter-spacing:2px;">Utenti</h1>
+  <div class="container bg-dark rounded-4 shadow-lg py-4 my-5" style="max-height: 700px; overflow-y: auto;">
+    <div class="row" id="cards-container" style="margin-top:2em; margin-bottom:2em;"></div>
+    <nav aria-label="Paginazione utenti" class="d-flex justify-content-center mt-4">
+      <ul class="pagination pagination-lg" id="paginator"></ul>
+    </nav>
+  </div>
+  <script src="fetch-cards.js"></script>
+</body>
+</html>

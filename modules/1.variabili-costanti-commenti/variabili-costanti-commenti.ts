@@ -1,12 +1,15 @@
 //variabile
-let car: string = "Golf"; // valore
-let moto: string = car; // riferimento
-console.log(car);
-let age: number = 20;
-let condition:boolean= true
+//let car: string = "Golf"; // valore
+//let moto: string = car; // riferimento
+//console.log(car);
+//let age: number = 20;
+//let condition:boolean= true
+let citta: string = "Roma";
+console.log(citta);
+
 
 // costante
-const DAY: string = "Monday";
+//const DAY: string = "Monday";
 
 // commenti del codice
 

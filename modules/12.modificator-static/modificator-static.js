@@ -1,19 +1,19 @@
-var MyAccount = /** @class */ (function () {
+class MyAccount {
     //proprietà della classe
-    function MyAccount(balance, firstDeposit, firstDraw) {
+    constructor(balance, firstDeposit, firstDraw) {
         //costruttore della classe
         MyAccount.balance = balance;
         MyAccount.firstDeposit = firstDeposit;
         MyAccount.firstDraw = firstDraw;
     }
-    MyAccount.getFirstDeposit = function () {
+    static getFirstDeposit() {
         return this.balance + this.firstDeposit;
-    };
-    MyAccount.getTotalAccount = function () {
+    }
+    static getTotalAccount() {
         return this.getFirstDeposit() - this.firstDraw;
-    };
-    return MyAccount;
-}());
-var myAccount = new MyAccount(0, 500, 100);
-var total = MyAccount.getTotalAccount(); // chiamo il metodo static
+    }
+}
+let myAccount = new MyAccount(0, 500, 100);
+let total = MyAccount.getTotalAccount(); // chiamo il metodo static
 console.log(total);
+//# sourceMappingURL=modificator-static.js.map

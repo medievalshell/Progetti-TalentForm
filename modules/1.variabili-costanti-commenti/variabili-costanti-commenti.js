@@ -1,11 +1,13 @@
 //variabile
-let car = "Golf"; // valore
-let moto = car; // riferimento
-console.log(car);
-let age = 20;
-let condition = true;
+//let car: string = "Golf"; // valore
+//let moto: string = car; // riferimento
+//console.log(car);
+//let age: number = 20;
+//let condition:boolean= true
+let citta = "Roma";
+console.log(citta);
 // costante
-const DAY = "Monday";
+//const DAY: string = "Monday";
 // commenti del codice
 //let car:string = 'berlina'; singola riga
 /* let car:string = 'fiat';
